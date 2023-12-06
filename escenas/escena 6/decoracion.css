@@ -1,0 +1,116 @@
+.todo{
+    display: flex;
+    justify-content: center;
+    max-width: 1920px;
+    max-height: 1080px;
+
+}
+
+.contenedor{
+   background: url(./img/hospital-01.jpg);
+   max-width: 1280px;
+   max-height: 720px;
+   height: 43rem;
+   position: relative;
+   
+   width: 80rem;
+   background-repeat: no-repeat;
+   background-size: 100%;
+   overflow: hidden;
+}
+
+.igor{
+    background: url(./img/igor-01.png);
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 20rem;
+    left: 13rem;
+    height: 25rem;
+    width: 32rem;
+    background-size: 50rem;
+    background-repeat: no-repeat;
+
+}
+
+.lampara{
+    background: url(./img/lampara-01.png);
+    background-repeat: no-repeat;
+    position: absolute;
+    top: -3rem;
+    left: 35rem;
+    width: 36rem;
+    height: 10rem;
+    
+    background-size: 38rem;
+
+}
+
+.sombra:hover{
+    filter: drop-shadow(0px 0px 10px #fff);
+}
+
+.alumbra{
+    display: none;
+}
+
+.luz{
+
+    background: url(./img/luz-02.png);
+    background-repeat: no-repeat;
+    background-size: 45rem;
+    position: absolute;
+    top: 1rem;
+    left: 32rem;
+    height: 50rem;
+    width: 50rem;
+
+    
+}
+
+.lucecita{ animation: deslumbrar 2s linear infinite;}
+
+@keyframes deslumbrar{
+    100%{
+        opacity: 1;
+    }
+    90%{
+        opacity: 0.1;
+    }
+    80%{
+        opacity: 0.5;
+    }
+    60%{
+        opacity: 1;
+    }
+    40%{
+        opacity: 0.5;
+    }
+    20%{
+        opacity: 1;
+    }
+    0%{
+        opacity: 0.5;
+    }
+}
+
+.lore{
+    position: absolute;
+    top: 33rem;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    font-size: 17px;
+    padding: 8px 12px;
+}
+
+.lore p{
+    width: 50%;
+    background-color: #f2f2f2d6;
+    color: #000000;
+    padding: 2rem;
+    border-radius: 2rem;
+    border: 1.5px solid #000000;
+}

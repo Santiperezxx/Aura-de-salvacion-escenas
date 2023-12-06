@@ -1,0 +1,179 @@
+.todo{
+    display: flex;
+    justify-content: center;
+    max-width: 1920px;
+    max-height: 1080px;  
+}
+
+.contenedor{
+    
+   
+   
+background: url(./img/pueblo_Mesa\ de\ trabajo\ 1_Mesa\ de\ trabajo\ 1.jpg);
+max-width: 1280px;
+max-height: 720px;
+height: 43rem;
+position: relative;
+
+width: 80rem;
+background-repeat: no-repeat;
+background-size: 100%;
+overflow: hidden;
+
+}
+
+.artesano{
+    position: absolute;
+    top: 30rem;
+    left: 5rem;
+    height: 50rem;
+    width: 11rem;
+    background: url(./img/artesano.png);
+    background-repeat: no-repeat;
+    background-size: 25rem;
+   
+
+}
+
+.asre:hover{
+    filter: drop-shadow(1px 1px 10px #fff);
+}
+
+.hartesano{
+     animation: artesano-move 1.5s steps(2)  infinite;
+}
+
+@keyframes artesano-move{
+    100%{
+       background-position-x:-28rem;
+    }
+}
+
+.nubes{
+    position: absolute;
+    top: -4rem;
+    background: url(./img/nubes-02.png);
+    height: 20rem;
+    width: 100rem;
+    
+    background-size: 90rem;
+    
+}
+
+.lure:hover{
+    filter: drop-shadow(1px 1px 10px #fff);
+}
+
+.nubesitas{
+    animation: nubesas 6s linear infinite;
+}
+
+@keyframes nubesas{
+    100%{
+        background-position-x: -40rem;
+    }
+}
+
+.sefue{
+    display: none;
+}
+
+.maripoja{
+    background: url(./img/mariposa-03.png);
+    height: 5rem;
+    width: 5rem;
+    position: absolute;
+    top: 30rem;
+    left: 17rem;
+    
+    background-repeat: no-repeat;
+    background-size: 3rem;
+}
+
+.tronco{
+    background: url(./img/tronco-01.png);
+    background-repeat: no-repeat;
+    background-size: 20rem;
+    position: absolute;
+    top: 18.5rem;
+    left: 60rem;
+    height: 30rem;
+    width: 25rem;
+
+}
+
+.hojas{
+    background: url(./img/hojas-02.png);
+    background-repeat: no-repeat;
+    height: 20rem;
+    width: 30rem;
+    position: absolute;
+    left: 59rem;
+    top: 14rem;
+    background-size: 22.5rem;
+   
+
+}
+
+.rero:hover{
+    filter: drop-shadow(1px 1px 10px #fff);
+}
+
+.hojascorazon{
+    animation: hojasmovidas 1s linear forwards;
+}
+.hojascorazon2{
+    animation: hojasmovidas2 1s ease-in-out reverse; 
+}
+@keyframes hojasmovidas{
+
+    100%{
+        transform: rotate(0deg);
+    }
+    90%{
+        transform: rotate(3deg);
+    }
+
+    50%{
+        transform: rotate(-3deg);
+    }
+    0%{
+        transform: rotate(0deg);
+    }
+}
+@keyframes hojasmovidas2{
+
+    100%{
+        transform: rotate(0deg);
+    }
+    90%{
+        transform: rotate(3deg);
+    }
+
+    50%{
+        transform: rotate(-3deg);
+    }
+    0%{
+        transform: rotate(0deg);
+    }
+}
+
+.lore{
+    position: absolute;
+    top: 33rem;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    font-size: 17px;
+    padding: 8px 12px;
+}
+
+.lore p{
+    width: 50%;
+    background-color: #f2f2f2d6;
+    color: #000000;
+    padding: 2rem;
+    border-radius: 2rem;
+    border: 1.5px solid #000000;
+}
